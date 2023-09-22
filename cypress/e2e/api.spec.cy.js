@@ -1,6 +1,6 @@
 import 'cypress-commands';
 
-describe('API Test using Cypress Request', () => {
+describe('API Test', () => {
     it('should fetch data from the API and verify objects with the "Category: Authentication & Authorization" property', () => {
         
         cy.request('https://api.publicapis.org/entries').then((response) => {
